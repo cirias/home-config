@@ -30,10 +30,10 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt256c
+bindsym $mod+Return exec urxvt
 
 # start a chrome
-bindsym $mod+c exec google-chrome
+bindsym $mod+c exec chromium
 
 # kill focused window
 bindsym $mod+Shift+q kill

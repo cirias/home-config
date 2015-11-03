@@ -4,7 +4,7 @@
 app_name="home-config"
 REPO_PATH="$HOME/.my-config"
 REPO_URI="https://github.com/cirias/home-config.git"
-REPO_BRANCH="master"
+REPO_BRANCH="home-pc"
 
 # BASIC SETUP TOOLS
 msg() {
@@ -81,6 +81,7 @@ create_symlinks() {
   local source_path="$1"
   local target_path="$2"
 
+  lnif "$source_path/.asoundrc"            "$target_path/.asoundrc"
   lnif "$source_path/.Xkbmap"              "$target_path/.Xkbmap"
   lnif "$source_path/.Xresources"          "$target_path/.Xresources"
   lnif "$source_path/.Xresources.d"        "$target_path/.Xresources.d"
