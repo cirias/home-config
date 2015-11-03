@@ -3,7 +3,7 @@
 # SETUP PARAMETERS
 app_name="home-config"
 REPO_PATH="$HOME/.my-config"
-REPO_URI="https://github.com/cirias/home-config.git"
+REPO_URI="git@github.com:cirias/home-config.git"
 REPO_BRANCH="home-pc"
 
 # BASIC SETUP TOOLS
