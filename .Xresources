@@ -1,0 +1,14 @@
+#include ".Xresources.d/color/solarized.light"
+!#include ".Xresources.d/color/solarized.dark"
+
+! urxvt
+URxvt*font:  xft:pragmatapro:size=12
+URxvt*depth: 32
+URxvt*saveLines: 5000
+URxvt*scrollBar: false
+! clipboard
+!URxvt*perl-ext-common: default,clipboard
+!URxvt*keysym.Shift-Control-C: perl:clipboard:copy
+!URxvt*keysym.Shift-Control-V: perl:clipboard:paste
+!URxvt*clipboard.copycmd:  xsel -ib
+!URxvt*clipboard.pastecmd: xsel -ob
