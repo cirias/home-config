@@ -51,7 +51,7 @@ variable_set() {
 
 lnif() {
     if [ -e "$1" ]; then
-        ln -sf "$1" "$2"
+        ln -snf "$1" "$2"
     fi
     ret="$?"
 }
