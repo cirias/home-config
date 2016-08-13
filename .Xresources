@@ -12,3 +12,28 @@ URxvt*scrollBar: false
 !URxvt*keysym.Shift-Control-V: perl:clipboard:paste
 !URxvt*clipboard.copycmd:  xsel -ib
 !URxvt*clipboard.pastecmd: xsel -ob
+
+! xterm
+xterm*faceName: Monospace
+xterm*faceSize: 12
+xterm*locale: true
+xterm*faceNameDoublesize: Noto Sans Mono CJK SC
+xterm*saveLines: 5000
+xterm*selectToClipboard: true
+
+rofi.location:          6
+rofi.color-enabled:     true
+rofi.color-window:      argb:ee0F3B5F, #CC9752, #CC9752
+rofi.color-normal:      argb:00111111, #E5DBCF, argb:00111111, #CC9752, #0F3B5F
+rofi.color-urgent:      argb:00111111, #af652f, argb:00111111, #af652f, #0F3B5F
+rofi.color-active:      argb:00111111, #70a16c, argb:00111111, #70a16c, #0F3B5F
+rofi.key-combi:         Alt-F3
+rofi.separator-style:   dash
+rofi.fullscreen:        false
+rofi.padding:           2
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.fake-transparency: true
+rofi.yoffset:           -20
+rofi.xoffset:           0
+rofi.width:             1440
